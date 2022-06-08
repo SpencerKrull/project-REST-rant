@@ -8,7 +8,7 @@ As a restaurant-goer, I love variety so I can always try new things
 As a consumer, I need consumables, so I can consume
 As a customer, I love this service, so I can find the best places to eat
 
-| First Header  | Second Header |
+| Method  | Path | Purpose |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| GET  | /  | Home page |
+| GET  | /places  | Places index page|
