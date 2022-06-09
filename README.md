@@ -21,3 +21,12 @@ As a customer, I love this service, so I can find the best places to eat
 | POST    | /places/:id/rant | Create a rant (comment) about a particular place
 | DELETE  | /places/:id/rant/:rantId | Delete a rant (comment) about a particular place
 | GET     | * | 404 page (matches any route not define above)
+
+
+| Field Name | Data Type |
+| ---------- | --------- |
+| name | string |
+| city | string |
+| state | string |
+| cuisines | string |
+| pic | string (a URL) |
