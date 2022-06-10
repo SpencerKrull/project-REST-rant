@@ -6,19 +6,19 @@ router.get('/', (req, res) => {
         city: 'Greendale',
         state: 'CO',
         cuisines: 'Deli-Style Sandwiches',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/shirleys.jpg'
     }, {
         name: 'Double R Diner',
         city: 'Twin Peaks',
         state: 'WA',
         cuisines: 'Home-Cooked Diner Food',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/doubler.png'
     }, {
         name: 'Los Pollos Hermanos',
         city: 'Albuquerque',
         state: 'NM',
         cuisine: 'Chicken and Chicken Accessories',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/pollos.jpeg'
     }]
     res.render('places/index', { places })
 })
