@@ -6,6 +6,10 @@ function show (data) {
         <Def>
             <main>
                 <h1>{ data.place.name }</h1>
+                <h2>{ data.place.city }</h2>
+                <h2>{ data.place.state }</h2>
+                <h2>{ data.place.cuisine }</h2>
+                <h2>{ data.place.founded }</h2>
                 <h2>currently unrated</h2>
                 <h2>No comments yet!</h2>
             </main>
