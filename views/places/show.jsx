@@ -5,7 +5,6 @@ function show (data) {
     return (
         <Def>
             <main>
-            <main>
                 <div className="row">
                     <div className="col-sm-6">
                         <img src={data.place.pic} alt={data.place.name} />
@@ -17,7 +16,6 @@ function show (data) {
                     <h3>{data.place.showEstablished()}</h3>
                     <h4>Serving {data.place.cuisines}</h4>
                 </div>
-            </main>
                 <h2>Currently Unrated</h2>
                 <h2>No comments yet!</h2>
             </main>
